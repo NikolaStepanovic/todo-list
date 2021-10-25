@@ -1,0 +1,39 @@
+.Box{
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    height: 100px;
+    margin: 20px auto;
+    border-bottom: 2px solid black;
+}
+
+.containerLeft{
+    justify-content: center;
+    line-height: 5px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.containerRight{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.btnRight{
+    border: none;
+    cursor: pointer;
+    width: 110px;
+    height: 43%;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    transition: 200ms ease-in-out;
+}
+
+.btnRight:hover{
+    border: 1px solid black;
+    background-color: salmon;
+}

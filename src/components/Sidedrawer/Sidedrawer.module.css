@@ -1,0 +1,42 @@
+.Box{
+    position: fixed;
+    width: 340px;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 10;
+}
+
+.Close{
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    font-size: 15px;
+    font-weight: 1000;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.Submit{
+    cursor: pointer;
+    width: 78%;
+    color: white;
+    background-color: blue;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.title{
+    color: white;
+    margin-top: 40px;
+}
+
+.p{
+    color: white;
+}
+
+.Input{
+    width: 75%;
+}
